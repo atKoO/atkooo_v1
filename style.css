@@ -1,0 +1,40 @@
+html{
+    font-size: 18px;
+}
+body{
+    margin: 0 auto;
+    background-color: #f3f7fa;
+    font: 400 18px / 34px 'Source Sans Pro';
+}
+#top{
+    height: 970px;
+    overflow: hidden;
+    position: relative;
+}
+#banner{
+    height: 100vh;
+    background-image: url(img/cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.greet{
+    width: 100%;
+    display: table-cell;
+    text-align: center;
+    margin-top: 250px;
+    text-transform: uppercase;
+    position: absolute;
+    font-family: Raleway;
+    color: #ffffff;
+    z-index: 5;
+}
+.greet h1{
+    font-size: 149px;
+    margin-bottom: 80px;
+     
+}
+.greet p{
+    font-size: 50px;
+
+}
