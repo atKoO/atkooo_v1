@@ -1,0 +1,130 @@
+@media screen and (max-width: 980px) {
+	.work {
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	.logo {
+		margin-left: 20px;
+	}
+	.greet h1 {
+		font-size: 7em;
+	}
+	.greet p {
+		font-size: 2.4em;
+	}
+	.greet {
+		margin-top: 20%;
+	}
+	.skill {
+		float: none;
+	}
+	.menu {
+		display: none;
+	}
+	.menu_icon a img {
+		display: block;
+		opacity: 0.8;
+		-webkit-transition: opacity .30s ease-in-out;
+		-moz-transition: opacity .30s ease-in-out;
+		-ms-transition: opacity .30s ease-in-out;
+		-o-transition: opacity .30s ease-in-out;
+		transition: opacity .30s ease-in-out;
+	}
+	.menu_icon a img:hover {
+		opacity: 1;
+		-webkit-transition: opacity .30s ease-in-out;
+		-moz-transition: opacity .30s ease-in-out;
+		-ms-transition: opacity .30s ease-in-out;
+		-o-transition: opacity .30s ease-in-out;
+		transition: opacity .30s ease-in-out;
+	}
+	.wrap {
+		width: 97%;
+	}
+	.work {
+		width: 33.333333%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.wrap {
+		width: 95%;
+	}
+	.work {
+		width: 50%;
+	}
+	@media screen and (max-width: 640px) {
+		.greet h1 {
+			font-size: 5.5em;
+		}
+		.greet p {
+			font-size: 1.91em;
+		}
+		.greet {
+			margin-top: 30%;
+		}
+		.wrap {
+			width: 90%;
+		}
+		.skill {
+			float: none;
+		}
+		.worl {
+			width: 33.333333%;
+		}
+	}
+	@media screen and (max-width: 480px) {
+		.greet h1 {
+			font-size: 5.5em;
+		}
+		.greet p {
+			font-size: 1.9em;
+		}
+		.greet {
+			margin-top: 40%;
+		}
+		.offset {
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+		.wrap {
+			width: 90%;
+		}
+		.work {
+			width: 100%;
+		}
+	}
+	@media screen and (max-width: 440px) {
+		.greet h1 {
+			font-size: 4em;
+		}
+		.greet p {
+			font-size: 1.4em;
+		}
+	}
+	@media screen and (max-width: 330px) {
+		.greet h1 {
+			font-size: 4em;
+		}
+		.greet p {
+			font-size: 1.4em;
+		}
+		.greet {
+			margin-top: 40%;
+		}
+		.skill {
+			float: none;
+			width: 300px;
+		}
+		.offset {
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+		.wrap {
+			width: 100%;
+		}
+		.work {
+			width: 100%;
+		}
